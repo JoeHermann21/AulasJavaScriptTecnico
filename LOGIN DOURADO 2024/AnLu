@@ -1,0 +1,14 @@
+<?php
+			
+				$login = "eXcript";
+				$senha = "123";
+				
+				if(isset($_POST["login"])){
+					if($_POST["login"] == $login and $_POST["senha"] == $senha){
+						echo "Login efetuado com sucesso!";
+					}else{
+						echo "Login ou senha inválidos!";
+					}
+				}
+			
+			?>
