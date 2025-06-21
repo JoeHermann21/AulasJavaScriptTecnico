@@ -1,0 +1,28 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1a0000;
+	font-family: Verdana;
+
+}
+
+.titulo{
+    font-style: bold;
+    color: blanchedalmond;
+    font-size: 50pt;
+}
+
+a{
+	font-size: 16.5pt;
+	font-style: bold;
+    color: red;
+}
+
+h3{
+    color: blanchedalmond;
+    font-size: 16.5pt;
+}

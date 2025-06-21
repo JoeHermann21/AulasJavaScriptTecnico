@@ -1,0 +1,47 @@
+body{
+    margin: 10px;
+    background-color: #cccccc;
+    font-family: Verdana, sans-serif;
+}
+
+.button{
+    margin-top: 10px;
+
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+}
+
+#areaHistorico{
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#jogo{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #cccccc;
+    padding: 10px;
+}
+
+#areaStatus{
+    font-size: 120%;
+}
+
+#areaRodape{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 90%;
+    font-style: italic;
+}
+
+.foto img{
+	margin: 0 auto;
+	width:20%;
+	height:40%;
+}

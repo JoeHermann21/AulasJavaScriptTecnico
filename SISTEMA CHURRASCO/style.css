@@ -1,0 +1,45 @@
+body{
+	background-color: #ac6730;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+table{
+	background-color: #d3a27f;
+	font-family: Verdana;
+	border: 3px solid #333;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+h1{
+	color: white;
+	font-family: Arial;
+}
+
+.foto img{	
+	margin: 0 auto;
+	width:20%;
+	height:40%;
+}
+
+.titulo{
+	font-weight: bolder;
+}
+
+.tabela{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.botao{
+	margin-top: 10px;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #de946c;
+}

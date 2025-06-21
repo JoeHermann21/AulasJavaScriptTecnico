@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title> Loja </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<form action="logica.php" method="post">	
+	
+	<nav class="foto">
+		<img src="rugrats.png">
+	</nav>
+	
+	
+	<h1>Tabela para calcular churrasco</h1>
+	
+	<nav class="tabela">	
+	<table border="1">	
+	<tr>
+		<td class="titulo">Itens</td>
+		<td class="titulo">Homens</td>
+		<td class="titulo">Mulheres</td>
+		<td class="titulo">Crianças</td>
+	</tr>
+	<tr>
+		<td>Carne bovina</td>
+		<td>500g</td>
+		<td>300g</td>
+		<td>200g</td>
+	</tr>
+	<tr>
+		<td>Frango</td>
+		<td>200g</td>
+		<td>200g</td>
+		<td>100g</td>
+	</tr>
+	<tr>
+		<td>Linguiça</td>
+		<td>200g</td>
+		<td>200g</td>
+		<td>200g</td>
+	</tr>
+	<tr>
+		<td>Refrigerante</td>
+		<td>300ml</td>
+		<td>400ml</td>
+		<td>200ml</td>
+	</tr>
+	<tr>
+		<td>Cerveja</td>
+		<td>800ml</td>
+		<td>500ml</td>
+		<td> - </td>
+	</tr>
+	</table>
+	</nav>
+
+    <div class="container-fluid">
+        <div class="form-inline">
+            <div class="form-group">
+                <h1>Homem: <br><input type="number" min="0" class="form-control" id="homem" name="homem" placeholder="Homem"></h1>
+            </div>
+            <div class="form-group">
+                <h1>Mulher: <br><input type="number" min="0" class="form-control" id="mulher" name="mulher" placeholder="Mulher"></h1>
+            </div>
+            <div class="form-group">
+                <h1>Criança: <br><input type="number" min="0" class="form-control" id="crianca" name="crianca" placeholder="Criança"></h1>
+            </div>        
+			<input type="submit" name="submit" value="ADICIONAR" class="botao" />              
+        </div>
+    </div>    
+</body>
+</html>

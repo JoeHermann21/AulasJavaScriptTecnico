@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Adivinhe o número</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main id="jogo">
+        <h1>Jogo de Adivinhação</h1>
+        <fieldset>
+            <label id="areaStatus">
+                <p> Em quantas tentativas você consegue adivinhar o número?</p>
+            </label>
+            <input type="number" id="palpite" aria-describedby="entrada" min="1" max="100" />
+            <p id="entrada"> O campo só aceita NÚMEROS de 1 a 100.
+                Ao digitar o número certo, clique em "ADIVINHAR"</p>
+            <button class="button" id="buttonArea" aria-describedby="botaoAdivinha" role="button">ADIVINHAR</button>
+    </main>
+    <label id="areaHistorico">
+        <h2>Seus últimos palpites</h2>
+        <ol id="listaHistorico">
+        </ol>
+    </label>
+    </fieldset>
+
+	<nav class="foto">
+		<img src="pared-centro-espac3b1a.png">
+	</nav>
+
+    <footer id="areaRodape">
+        Baseado em: <a href="https://simonprickett.dev/"> Simon Prickett</a>
+    </footer>
+</body>
+
+</html>
